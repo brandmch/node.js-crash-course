@@ -1,8 +1,7 @@
-const person = require('./person')
+const Logger = require('./Logger')
 
-const jack = new person("Jack", 30)
-const b = new person("Brandon", 25)
-const c = new person("Cal", 90)
-const d = new person("ddd", 1222)
-const e = new person("eric", 6)
+const logger = new Logger()
 
+logger.on('message', (data) => console.log('Called listener: ', data))
+
+logger.log('Hello WORLD')
