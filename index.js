@@ -1,3 +1,5 @@
 const person = require('./person')
 
-console.log(person)
+const jack = new person("Jack", 30)
+
+jack.greeting()
