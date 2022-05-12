@@ -1,0 +1,24 @@
+{
+    "food": [
+        {
+            "name": "Frosting",
+            "quantity": 12
+        },
+        {
+            "name": "Watermelon",
+            "quantity": 6
+        },
+        {
+            "name": "Blueberries",
+            "quantity": 1200
+        },
+        {
+            "name": "Grapes",
+            "quantity": 4
+        },
+        {
+            "name": "Sugar",
+            "quantity": 91
+        }
+    ]
+}
